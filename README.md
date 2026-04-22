@@ -56,7 +56,7 @@ This project explores how market sentiment impacts trader behavior and profitabi
 ---
 
 ## 🗂️ Project Structure
-
+```
 ├── data/
 │   ├── historical_data.csv
 │   ├── fear_greed_index.csv
@@ -66,7 +66,7 @@ This project explores how market sentiment impacts trader behavior and profitabi
 ├── requirements.txt   # Dependencies
 ├── uploads/           # Images / outputs
 └── README.md
-
+```
 ---
 
 ## ▶️ How to Run
@@ -74,3 +74,4 @@ This project explores how market sentiment impacts trader behavior and profitabi
 ```bash
 pip install -r requirements.txt
 python3 analysis.py
+python3 report.py
